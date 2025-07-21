@@ -10,7 +10,7 @@ fun main() {
     println(age)
     println(name+surname)
     var isMale=true
-
+    println("Test")
     println(isMale)
 }
 
