@@ -12,5 +12,6 @@ fun main() {
     var isMale=true
     println("Test")
     println(isMale)
+    println("TEST 2")
 }
 
