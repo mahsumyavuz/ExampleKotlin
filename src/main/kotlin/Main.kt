@@ -14,4 +14,3 @@ fun main() {
     println(isMale)
     println("TEST 2")
 }
-
