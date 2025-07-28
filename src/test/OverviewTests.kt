@@ -9,4 +9,4 @@ class Test {
         ("Fonksiyon boş olmayan bir string Döndürmeli",result.isNotEmpty)
 
     }
-}
+} 
