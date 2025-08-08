@@ -13,4 +13,11 @@ fun main() {
     println("Test")
     println(isMale)
     println("TEST 2")
+
+
+    println("---------------------------------------\n" )
+    val numberValue: String ="value 254 = "+(215+54+65)
+    println("number value $numberValue")
+    println("numberValue \$ $numberValue")
+    println("numberValue  ${numberValue.length}")
 }
