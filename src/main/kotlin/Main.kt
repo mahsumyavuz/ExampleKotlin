@@ -9,7 +9,7 @@ fun main() {
     surname="YAVUZ"
     println(age)
     println(name+surname)
-    var isMale=true
+    val isMale=true
     println("Test")
     println(isMale)
     println("TEST 2")
