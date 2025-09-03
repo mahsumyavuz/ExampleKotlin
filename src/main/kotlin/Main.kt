@@ -32,5 +32,12 @@ fun main() {
 
     val regex = """\d{2}-\d{2}-\d{4}""".toRegex() // Tarih formatı (örn: 31-12-2023)
     println(regex.matches("31-12-20235")) // true
+    println("-------------------------------------------------------")
+
+    val twoDArray=Array(2){Array<Int>(2){0} }
+    println("twoDArray" +twoDArray.contentDeepToString())
+
+    val threeDArray=Array(3){Array(3){Array<Int>(3){0} } }
+    println("threeDArray" +threeDArray.contentDeepToString())
 
 }
