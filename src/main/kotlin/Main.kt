@@ -36,8 +36,26 @@ fun main() {
 
     val twoDArray=Array(2){Array<Int>(2){0} }
     println("twoDArray" +twoDArray.contentDeepToString())
+    twoDArray[1][0]=20
+    println("twoDArray" +twoDArray.contentDeepToString())
 
     val threeDArray=Array(3){Array(3){Array<Int>(3){0} } }
     println("threeDArray" +threeDArray.contentDeepToString())
+    println("QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ")
+    val name1="MAhsum"
+    val surName1="Yavuz"
+    val age1=34
+    val indexName= arrayOf(name1,surName1,age1,name1,surName1,age1)
+    for (index in indexName.indices) {
+        println(indexName[index].toString())
+
+    }
+    println(indexName.contentDeepToString())
+    println("*************************************")
+
+    // Creates an array with values [null, null, null]
+    val nullArray: Array<Int?> = arrayOfNulls(3)
+    println(nullArray.joinToString())
+    // null, null, null
 
 }
